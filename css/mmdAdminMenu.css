@@ -1,0 +1,119 @@
+ /*********************************************
+ ******			Admin Menu CSS			*******
+ *********************************************/
+
+
+.mmd_left{
+	float:left;
+}
+
+.mmd_right{
+	float:right !important;
+}
+
+.mmd_full{
+	width:95% !important;
+}
+
+.mmd_twothird{
+	width:60% !important;
+}
+
+.mmd_onethird{
+	width:30% !important;
+}
+
+.mmd_text{
+	
+}
+
+.mmd_taxonomy{
+	
+}
+
+
+.mmd_taxonomy .cmb2-metabox-description{
+	width: 60%;
+}
+
+.mmd_file{
+	
+}
+
+.mmd_entry{
+	
+}
+
+.mmd_radio{
+	
+}
+
+.mmd_select{
+	width: 60%;
+}
+
+.mmd_textarea textarea{
+	resize:none;
+}
+
+.mmd_title{
+	padding:0 0 12px 0 !important;
+}
+
+.mmd_title:after{
+		border-bottom: 2px solid #eee !important;
+		width: 80% !important;
+}
+
+.mmd_title h5{
+	color: #0073aa;
+}
+
+.mmd_color{
+	clear: both;
+}
+
+.mmd_sample_img{
+	display:inline-block;
+	position: absolute !important;
+	border-left: 2px solid #eee;
+	padding-left: 50px !important;
+}
+
+.mmd_sample_img img{
+	max-height:300px;
+	max-width: 300px;
+}
+
+#tagsdiv-filters{
+	display: none;
+}
+
+.cmb2-postbox h2 { 
+	background-color: lightblue;
+}
+
+.toggle-indicator{
+	color: #23282d;
+}
+
+.mmd_decorator li{
+	width: 30%;
+}
+
+.tooltip_dec_sample{
+	width: 250px;
+	height: 250px;
+}
+/*********************************************
+ ******			CMB2 Overrides 			*******
+ *********************************************/
+ 
+ .cmb-row:not(:last-of-type){
+	 border-bottom: none !important;
+ }
+ 
+ #cmb2-metabox-_mmd_item_metabox{
+	 display:inline-block;
+ }
+ 

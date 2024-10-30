@@ -1,0 +1,202 @@
+/**********************************
+ ***	Desktop Version			***
+ *********************************/
+
+	
+	/**********************************
+	 ***	Containers / Divs		***
+	 *********************************/
+	#MMDfiltercontainer{
+		display: inline-block;
+		width: 25%;
+		text-align: center;
+		vertical-align: top;
+	}
+
+
+	#MMDportfoliocontainer{
+		width: 75%;
+		position: relative;
+		display: inline-block;
+	}	
+
+	/*Ensures the filter actually functions*/
+	#MMDportfoliolist .MMDportfolio {
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		-o-box-sizing: border-box;
+		float:left;
+		overflow:hidden;
+	}
+	#MMDcontainer{
+		margin: 0 auto;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+
+	/**********************************
+	 ***	Filters/Navigation		***
+	 *********************************/
+	#MMDfilters {
+		padding:0;
+		display: inline-block;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		margin-left: 0px;
+		list-style:none;
+	}
+
+	#MMDfilters li {
+		margin: auto;
+		display: block;
+		padding:5px 20px;		
+		text-decoration:none;
+		color:#666;
+		cursor: pointer;
+	}
+	
+	#MMDfilters li.active {
+		background: #5acae6;
+		color:#fff;
+	}
+
+	/**********************************
+	 ***	Nav Seperator			***
+	 *********************************/
+	#MMDseparator span{
+		height: 2px;
+		display: block;
+		margin: auto;
+	}
+
+
+	/**********************************
+	 ***	Individual Items 		***
+	 *********************************/
+	 #MMDlist{
+		 margin-left: 0;
+	 }
+
+	article {
+	display: block;
+	}
+
+	/*Title*/
+	.articletop {
+		display:table;
+		height: 100%;
+		width: 100%;
+	}
+	.articletop h4, .articletop h5, .articletop h6{
+		display: table-cell;
+		vertical-align: middle;
+
+	}
+	
+	/*SVG*/
+	.articlemiddle {
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		height: 100%;
+	}
+	.linesvg { 
+		max-width: 50%;
+	 }
+	.test{
+		stroke: #ffffff;
+		stroke-width: 1;
+		stroke-linecap: butt;
+		stroke-linejoin: miter;
+		stroke-miterlimit: 4;
+	}
+	
+	/* Hover properties */
+	.da-thumbs li ,
+	.da-thumbs li  img {
+		display: block;
+		position: relative;
+	}
+	.da-thumbs li  {
+		overflow: hidden;
+		margin-top: 0;
+	}
+
+	/* Determines the background properties of the overlay*/
+	.da-thumbs li  article {
+		position: absolute;
+		background-color: #000000;
+		background-repeat:repeat;
+		opacity: 0.8;
+		width: 100%;
+		height: 100%;
+	}
+	/*Transition speed when moving between items*/
+	.da-thumbs li  article.da-animate {
+		-webkit-transition: all 0.2s ease;
+		-moz-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+	/* Initial state classes DO NOT TOUCH: */
+	.da-slideFromTop {
+		left: 0px;
+		top: -100%;
+	}
+	.da-slideFromBottom {
+		left: 0px;
+		top: 100%;
+	}
+	.da-slideFromLeft {
+		top: 0px; 
+		left: -100%;
+	}
+	.da-slideFromRight {
+		top: 0px;
+		left: 100%;
+	}
+	/* Final state classes DO NOT TOUCH: */
+	.da-slideTop {
+		top: 0px;
+	}
+	.da-slideLeft {
+		left: 0px;
+	}
+	
+	/*Text*/
+	.da-thumbs {
+		text-align:center;
+	}
+		
+		
+		/*Not currently used*/
+	.da-thumbs li  article span{
+	display:inline-block;
+	}
+
+
+/* Image Grid - the entire list */
+.MMDimage_grid {
+	margin: 0 auto;
+	overflow:hidden;
+	width:100%; /*Change this to change the total portfolio width on normal screen as % of viewport*/
+	position:relative;
+
+}
+
+/*UNSURE*/
+.MMDimage_grid li{
+	float: left;
+	line-height: 17px;
+	color: #686f74;
+	list-style:none;
+	overflow:hidden;	
+	text-align:center;
+}
+
+
+
+
+
